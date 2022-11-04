@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>07 - Clique</title>
+
+    <script>
+
+        function mensagem(){
+            
+            // Obtêm o elemento input de id campo
+            let campo = document.getElementById("campo");
+
+            // Validar campo
+            if(campo.value == ""){
+                //Adicionar uma borda vermelha
+                campo.style.borderColor = "red";
+
+                //Mensagem
+                alert("É necessário informar um nome");
+
+                //Cursor no campo
+                campo.focus();
+            }else{
+
+            // Exibe uma mensagem
+            alert("O nome informado é: " + campo.value);
+
+            // Limpa o input
+            campo.value = "";
+
+            // Deixa o cursor no input
+            campo.focus();
+            }
+
+        }
+
+    </script>
+
+</head>
+<body>
+
+    <!-- Exibir uma mensagem -->
+    <button onclick="alert('Hello World')">Clique aqui!</button>
+
+    <!-- Divisão -->
+    <hr>
+
+    <!-- Exibir o nome informado em um alert -->
+    <input type="text" placeholder="Informe um nome" id="campo">
+    <button onclick="mensagem()">Enviar</button>
+    
+</body>
+</html>

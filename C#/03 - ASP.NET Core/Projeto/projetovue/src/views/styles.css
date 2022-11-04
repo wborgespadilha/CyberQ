@@ -1,0 +1,12 @@
+
+div{
+  text-align: center;
+  margin: 0 auto;
+}
+form{
+  margin: 10px auto;
+  width: fit-content;
+  background-color: aliceblue;
+  padding: 10px;
+  border-radius: 10px;
+}

@@ -1,0 +1,44 @@
+form{
+    margin: 0 auto;
+    text-align: center;
+    background-color:rgb(212, 225, 245);
+    width: fit-content;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+div{
+    display: inline-block;
+    vertical-align:top;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#masterDiv {
+    margin: 10px auto;
+    display: flex;
+}
+
+#procurarNome,
+#procurarCategoria{
+    background-color: transparent;
+}
+
+#accordian{
+   width: 100%;
+}
+
+.card{
+    width: 18rem;
+    height: 650px;
+    margin: 0.4rem 0.4rem;
+    display: inline-block;
+    text-align: center;
+}
+
+.card:hover{
+    box-shadow: 0px 0px 10px gray;
+}
+
+
+

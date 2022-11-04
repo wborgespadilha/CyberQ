@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemons</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+
+    <style>
+        form{
+            text-align: center;
+            margin: 0 auto;
+        }
+
+        #pokemons{
+            width: fit-content;
+            display: inline-block;
+            text-align: center;
+        }
+
+        .card{
+            width: 300px;
+            text-align: center;
+            display: inline-block;
+        }
+
+    </style>
+
+    <script>
+
+        // Preencher o select de tipos
+
+        window.onload = function(){
+            fetch("https://pokeapi.co/api/v2/type")
+            .then(postagem => postagem.json())
+            .then(retorno => writeTypes(retorno))
+        }
+
+        function writeTypes(retorno){
+
+            for(let i = 0; i < retorno.count; i++){
+
+                var opcao = document.createElement('option');
+
+                opcao.value = retorno.results[i].name;
+                opcao.innerHTML = retorno.results[i].name;
+                document.getElementById("pkmnType").appendChild(opcao);
+            }
+        }
+
+
+        // Mostrar todos os pokemons
+
+
+        function fetchAll(){
+            fetch("https://pokeapi.co/api/v2/pokemon?limit=150")
+            .then(postagem => postagem.json())
+            .then(retorno => showList(retorno))
+        }
+
+        function showList(retorno){
+
+            document.getElementById("pokemons").innerHTML = "";
+
+            for(let i = 0; i < retorno.count; i++){
+
+                let position = `${i+1}/${retorno.count}`
+                let name = retorno.results[i].name
+
+                document.getElementById("pokemons").innerHTML += 
+                `<div class="card" >
+                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/${i+1}.png" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">${name}</h5>
+                        <p class="card-text">${position}</p>
+                    </div>
+                </div>`;
+            }
+        }
+
+
+        // Mostrar os pokemons que contem o nome
+
+
+        async function fetchByName(){
+            let name = document.getElementById("pkmnName").value;
+            if(name == ""){
+                alert("Você deve escrever um nome!");
+                return;
+            }
+
+            let string = `https://pokeapi.co/api/v2/pokemon?limit=150`;
+            await fetch(string)
+            .then(postagem => postagem.json())
+            .then(retorno => showByName(retorno))
+            
+        }
+
+        function showByName(retorno)
+        {
+            let insertedName = document.getElementById("pkmnName").value;
+            document.getElementById("pokemons").innerHTML = "";
+
+            for(let i = 0; i < retorno.count; i++){
+
+                let position = `${i+1}/${retorno.count}`
+                let name = retorno.results[i].name;
+
+                if(name.includes(insertedName))
+                {
+
+                    document.getElementById("pokemons").innerHTML += 
+                    `<div class="card" >
+                        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/${i+1}.png" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">${name}</h5>
+                            <p class="card-text">${position}</p>
+                        </div>
+                    </div>`;
+
+                }
+            }
+        }
+
+
+        // Mostrar os pokemons que contêm o tipo
+
+
+        function fetchByType(){
+
+            document.getElementById("pokemons").innerHTML = "";
+
+            for(let i = 1; i < 150; i++){
+
+                fetch(`https://pokeapi.co/api/v2/pokemon/${i}`)
+                .then(postagem => postagem.json())
+                .then(retorno => showByType(retorno))
+            }
+        }
+
+        function showByType(retorno){
+
+            console.table(retorno);
+            let selectedType = document.getElementById("pkmnType").value;
+
+            for(let j = 0; j < retorno.types.length; j++){
+                
+                if(retorno.types[j].type.name == selectedType)
+                {
+
+                    let posicao = `${retorno.id}/1126`
+
+                    document.getElementById("pokemons").innerHTML += 
+                    `<div class="card" >
+                        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/${retorno.id}.png" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">${retorno.name}</h5>
+                            <p class="card-text">${posicao}</p>
+                        </div>
+                    </div>`;
+                    break;
+                }
+            }
+        }
+
+
+    </script>
+
+</head>
+<body>
+    
+    <form action="">
+        <input type="button" class="btn btn-primary" value="Mostrar todos" onclick="fetchAll()">
+        <br>
+
+        <select name="" id="pkmnType">
+
+        </select>
+
+        <input type="button" class="btn btn-warning" value="Buscar por tipo" onclick="fetchByType()">
+        <br>
+
+        <input type="text" placeholder="Nome do pokemon" id="pkmnName">
+        <input type="button" class="btn btn-danger" value="Buscar por nome" onclick="fetchByName()">
+        <br>
+
+    </form>
+
+    <div class="row somePadding" id="pokemons">
+        
+    </div>
+
+</body>
+</html>

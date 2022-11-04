@@ -1,0 +1,25 @@
+C:\Users\CyberQ\Desktop\CyberQ William B. Padilha\C#\02 - Interface Gráfica\Exercícios\Exercício 18\bin\Debug\net6.0-windows\Exercício 18.exe
+C:\Users\CyberQ\Desktop\CyberQ William B. Padilha\C#\02 - Interface Gráfica\Exercícios\Exercício 18\bin\Debug\net6.0-windows\Exercício 18.deps.json
+C:\Users\CyberQ\Desktop\CyberQ William B. Padilha\C#\02 - Interface Gráfica\Exercícios\Exercício 18\bin\Debug\net6.0-windows\Exercício 18.runtimeconfig.json
+C:\Users\CyberQ\Desktop\CyberQ William B. Padilha\C#\02 - Interface Gráfica\Exercícios\Exercício 18\bin\Debug\net6.0-windows\Exercício 18.dll
+C:\Users\CyberQ\Desktop\CyberQ William B. Padilha\C#\02 - Interface Gráfica\Exercícios\Exercício 18\bin\Debug\net6.0-windows\Exercício 18.pdb
+C:\Users\CyberQ\Desktop\CyberQ William B. Padilha\C#\02 - Interface Gráfica\Exercícios\Exercício 18\obj\Debug\net6.0-windows\Exercício 18.csproj.AssemblyReference.cache
+C:\Users\CyberQ\Desktop\CyberQ William B. Padilha\C#\02 - Interface Gráfica\Exercícios\Exercício 18\obj\Debug\net6.0-windows\Exercício_18.Login.resources
+C:\Users\CyberQ\Desktop\CyberQ William B. Padilha\C#\02 - Interface Gráfica\Exercícios\Exercício 18\obj\Debug\net6.0-windows\Exercício 18.csproj.GenerateResource.cache
+C:\Users\CyberQ\Desktop\CyberQ William B. Padilha\C#\02 - Interface Gráfica\Exercícios\Exercício 18\obj\Debug\net6.0-windows\Exercício 18.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CyberQ\Desktop\CyberQ William B. Padilha\C#\02 - Interface Gráfica\Exercícios\Exercício 18\obj\Debug\net6.0-windows\Exercício 18.AssemblyInfoInputs.cache
+C:\Users\CyberQ\Desktop\CyberQ William B. Padilha\C#\02 - Interface Gráfica\Exercícios\Exercício 18\obj\Debug\net6.0-windows\Exercício 18.AssemblyInfo.cs
+C:\Users\CyberQ\Desktop\CyberQ William B. Padilha\C#\02 - Interface Gráfica\Exercícios\Exercício 18\obj\Debug\net6.0-windows\Exercício 18.csproj.CoreCompileInputs.cache
+C:\Users\CyberQ\Desktop\CyberQ William B. Padilha\C#\02 - Interface Gráfica\Exercícios\Exercício 18\obj\Debug\net6.0-windows\Exercício 18.dll
+C:\Users\CyberQ\Desktop\CyberQ William B. Padilha\C#\02 - Interface Gráfica\Exercícios\Exercício 18\obj\Debug\net6.0-windows\refint\Exercício 18.dll
+C:\Users\CyberQ\Desktop\CyberQ William B. Padilha\C#\02 - Interface Gráfica\Exercícios\Exercício 18\obj\Debug\net6.0-windows\Exercício 18.pdb
+C:\Users\CyberQ\Desktop\CyberQ William B. Padilha\C#\02 - Interface Gráfica\Exercícios\Exercício 18\obj\Debug\net6.0-windows\Exercício 18.genruntimeconfig.cache
+C:\Users\CyberQ\Desktop\CyberQ William B. Padilha\C#\02 - Interface Gráfica\Exercícios\Exercício 18\obj\Debug\net6.0-windows\ref\Exercício 18.dll
+C:\Users\CyberQ\Desktop\CyberQ William B. Padilha\C#\02 - Interface Gráfica\Exercícios\Exercício 18\obj\Debug\net6.0-windows\Exercício_18.Caixa.resources
+C:\Users\CyberQ\Desktop\CyberQ William B. Padilha\C#\02 - Interface Gráfica\Exercícios\Exercício 18\obj\Debug\net6.0-windows\Exercício_18.Saldo.resources
+C:\Users\CyberQ\Desktop\CyberQ William B. Padilha\C#\02 - Interface Gráfica\Exercícios\Exercício 18\obj\Debug\net6.0-windows\Exercício_18.SaqueCC.resources
+C:\Users\CyberQ\Desktop\CyberQ William B. Padilha\C#\02 - Interface Gráfica\Exercícios\Exercício 18\obj\Debug\net6.0-windows\Exercício_18.SaqueCP.resources
+C:\Users\CyberQ\Desktop\CyberQ William B. Padilha\C#\02 - Interface Gráfica\Exercícios\Exercício 18\obj\Debug\net6.0-windows\Exercício_18.DepositoCC.resources
+C:\Users\CyberQ\Desktop\CyberQ William B. Padilha\C#\02 - Interface Gráfica\Exercícios\Exercício 18\obj\Debug\net6.0-windows\Exercício_18.DepositoCP.resources
+C:\Users\CyberQ\Desktop\CyberQ William B. Padilha\C#\02 - Interface Gráfica\Exercícios\Exercício 18\obj\Debug\net6.0-windows\Exercício_18.Emprestimo.resources
+C:\Users\CyberQ\Desktop\CyberQ William B. Padilha\C#\02 - Interface Gráfica\Exercícios\Exercício 18\obj\Debug\net6.0-windows\Exercício_18.Extratos.resources

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Previsão do tempo</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+    <!-- 08487008e6194b6ebab131133222306 -->
+
+    <style>
+        div{
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        #previsions{
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .card{
+            width: 18rem;
+            display: inline-block;
+        }
+    </style>
+
+    <script>
+
+        async function fetchCity(){
+            let cidadeInserida = document.getElementById("cidade").value;
+            let string =`https://api.weatherapi.com/v1/forecast.json?key=08487008e6194b6ebab131133222306&q=${cidadeInserida}&days=54&aqi=yes&alerts=no`; 
+
+            await fetch(string)
+            .then(postagem => postagem.json())
+            .then(retorno => mostrarDados(retorno))
+        }
+
+        function mostrarDados(retorno){
+
+            console.log(retorno);
+
+            //document.getElementById("temperatura").value = `${retorno.current.temp_c}ºC`;
+            document.getElementById("previsions").innerHTML = "";
+
+            for(let i = 0; i < 3; i++)
+            {
+
+                let tempMax = `Temperatura máxima: ${retorno.forecast.forecastday[i].day.maxtemp_c}`
+                let tempAvg = `Temperatura média: ${retorno.forecast.forecastday[i].day.avgtemp_c}`
+                let tempMin = `Temperatura mínima: ${retorno.forecast.forecastday[i].day.mintemp_c}`
+                
+
+                document.getElementById("previsions").innerHTML += 
+                    `<div class="card" >
+                        <img src="${retorno.forecast.forecastday[i].day.condition.icon}" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">${retorno.forecast.forecastday[i].date}</h5>
+                            <p class="card-text">${retorno.forecast.forecastday[i].day.condition.text}</p>
+                            <p class="card-text">${tempMax}</p>
+                            <p class="card-text">${tempAvg}</p>
+                            <p class="card-text">${tempMin}</p>
+                        </div>
+                    </div>`;
+            }
+        }
+    </script>
+
+</head>
+<body>
+    
+    <div>
+        <form action="">
+            <input type="text" id="cidade" placeholder="Insira sua cidade">
+            <input type="button" class="btn btn-primary" value="Procurar" onclick="fetchCity()">
+        </form>
+    </div>
+
+    <br>
+
+    <div id="previsions">
+        
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor Celsius Farenheit</title>
+
+    <script>
+
+        function converter()
+        {
+            var valorCelsius = document.getElementById("celsius");
+            var valorFarenheit = document.getElementById("farenheit");
+            if(valorCelsius.value == "" && valorFarenheit.value == ""){
+                alert("Você deve inserir algum valor!");
+            }
+            else if(valorCelsius.value != ""  && valorFarenheit.value != ""){
+                alert("Você deve inserir apenas um valor!")
+            }
+
+            if(valorCelsius.value != ""){
+                let valor = ((valorCelsius.value * (9/5))+32);
+                valorFarenheit.value = valor;
+            }
+            else{
+                let valor = ((valorFarenheit.value -32)*(5/2))
+                valorCelsius.value = valor;
+            }
+        }
+
+    </script>
+
+    <style>
+
+        form{
+            text-align: center;
+            margin: 0 auto;
+            background-color: bisque;
+            width: 200px;
+            padding: 10px;
+            border-radius: 50px;
+        }
+
+    </style>
+
+
+</head>
+<body>
+
+    <div>
+        <form action="converter()" >
+            <input type="number" placeholder="Celsius" id="celsius" >
+            <br>
+            <input type="number" placeholder="Faranheit" id="farenheit">
+            <br>
+            <input type="button" onclick="converter()" value="Converter">
+        </form>
+    </div>
+    
+</body>
+</html>

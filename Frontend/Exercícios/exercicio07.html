@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cidades</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    
+    <style>
+
+        form{
+            text-align: center;
+            margin: 20px auto;
+            background-color: rgb(5, 148, 141);
+            padding: 10px;
+            width: fit-content;
+            border-radius: 10px;
+            font-weight: bold;
+
+        }
+
+    </style>
+
+    <script>
+
+        //function buscarEstados(){
+        window.onload = function(){
+            fetch("https://servicodados.ibge.gov.br/api/v1/localidades/estados")
+            .then(postagem => postagem.json())
+            .then(retorno => escreverEstados(retorno))
+        }
+
+        function escreverEstados(retorno){
+
+            let vetor = [];
+            vetor = retorno;
+
+            for(let i = 0; i < vetor.length; i++){
+
+                var opcao = document.createElement('option');
+                opcao.value = retorno[i].id;
+                opcao.innerHTML = retorno[i].nome;
+                document.getElementById("estados").appendChild(opcao);
+            }
+        }
+
+        function buscarCidades(){
+
+            let UF = document.getElementById("estados").value;
+            let string = `https://servicodados.ibge.gov.br/api/v1/localidades/estados/${UF}/municipios`;
+            fetch(string)
+            .then(postagem => postagem.json())
+            .then(retorno => escreverCidades(retorno))
+
+        }
+
+        function escreverCidades(retorno){
+
+            let vetor = [];
+            vetor = retorno;
+
+            document.getElementById("cidades").innerHTML = "";
+
+            for(let i = 0; i < vetor.length; i++){
+
+                var opcao = document.createElement('option');
+                opcao.value = retorno[i].id;
+                opcao.innerHTML = retorno[i].nome;
+                document.getElementById("cidades").appendChild(opcao);
+            }
+
+
+        }
+
+    </script>
+
+</head>
+<body>
+    
+    <div>
+        <form action="">
+            <select name="" id="estados" onchange="buscarCidades()">
+
+            </select>
+
+            <br>
+
+            <select name="" id="cidades">
+
+            </select>
+
+        </form>
+    </div>
+
+</body>
+</html>

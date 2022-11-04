@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CEP</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+    <style>
+
+        form{
+            text-align: center;
+            margin: 20px auto;
+            background-color: beige;
+            padding: 10px;
+            width: 230px;
+            border-radius: 10px;
+            font-weight: bold;
+
+        }
+
+    </style>
+
+    <script>
+
+        function buscarCEP(){
+            let string = "http://viacep.com.br/ws/"+ document.getElementById("cepInserido").value + "/json/";
+
+            fetch(string)
+            .then(postagem => postagem.json())
+            .then(retorno => escreverDados(retorno))
+        
+
+        }
+
+        function escreverDados(retorno){
+
+
+            console.table(retorno);
+
+            document.getElementById("cep").value = retorno.cep;
+            document.getElementById("logra").value = retorno.logradouro;
+            document.getElementById("comp").value = retorno.complemento;
+            document.getElementById("bairro").value = retorno.bairro;
+            document.getElementById("localidade").value = retorno.localidade;
+            document.getElementById("uf").value = retorno.uf;
+            document.getElementById("ibge").value = retorno.ibge;
+            document.getElementById("gia").value = retorno.gia;
+            document.getElementById("ddd").value = retorno.ddd;
+            document.getElementById("siafi").value = retorno.siafi;
+        }
+
+    </script>
+
+</head>
+<body>
+
+    <div>
+        <form action="">
+            <input type="text" placeholder="CEP" id="cepInserido">
+            <br> <br>
+            <input type="button" value="Procurar CEP" class="btn btn-primary" onclick="buscarCEP()">
+        </form>
+    </div>
+
+    <div>
+        <form action="">
+            <input type="text" name="" id="cep" disabled="true">
+            <label for="cep">CEP</label>
+
+            <input type="text" name="" id="logra" disabled="true">
+            <label for="logra">Logradouro</label>
+
+            <input type="text" name="" id="comp" disabled="true">
+            <label for="comp">Complemento</label>
+
+            <input type="text" name="" id="bairro" disabled="true">
+            <label for="bairro">Bairro</label>
+
+            <input type="text" name="" id="localidade" disabled="true">
+            <label for="localidade">Localidade</label>
+
+            <input type="text" name="" id="uf" disabled="true">
+            <label for="uf">UF</label>
+
+            <input type="number" name="" id="ibge" disabled="true">
+            <label for="ibge">IBGE</label>
+
+            <input type="number" name="" id="gia" disabled="true">
+            <label for="gia">GIA</label>
+
+            <input type="number" name="" id="ddd" disabled="true">
+            <label for="ddd">DDD</label>
+
+            <input type="text" name="" id="siafi" disabled="true">
+            <label for="siafi">SIAFI</label>
+        </form>
+    </div>
+    
+</body>
+</html>

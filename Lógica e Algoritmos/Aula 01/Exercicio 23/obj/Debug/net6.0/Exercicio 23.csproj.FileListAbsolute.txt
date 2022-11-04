@@ -1,0 +1,15 @@
+C:\Users\CyberQ\Desktop\CyberQ\Lógica e Algoritmos\Aula 01\Exercicio 23\obj\Debug\net6.0\Exercicio 23.csproj.AssemblyReference.cache
+C:\Users\CyberQ\Desktop\CyberQ\Lógica e Algoritmos\Aula 01\Exercicio 23\obj\Debug\net6.0\Exercicio 23.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CyberQ\Desktop\CyberQ\Lógica e Algoritmos\Aula 01\Exercicio 23\obj\Debug\net6.0\Exercicio 23.AssemblyInfoInputs.cache
+C:\Users\CyberQ\Desktop\CyberQ\Lógica e Algoritmos\Aula 01\Exercicio 23\obj\Debug\net6.0\Exercicio 23.AssemblyInfo.cs
+C:\Users\CyberQ\Desktop\CyberQ\Lógica e Algoritmos\Aula 01\Exercicio 23\obj\Debug\net6.0\Exercicio 23.csproj.CoreCompileInputs.cache
+C:\Users\CyberQ\Desktop\CyberQ\Lógica e Algoritmos\Aula 01\Exercicio 23\bin\Debug\net6.0\Exercicio 23.exe
+C:\Users\CyberQ\Desktop\CyberQ\Lógica e Algoritmos\Aula 01\Exercicio 23\bin\Debug\net6.0\Exercicio 23.deps.json
+C:\Users\CyberQ\Desktop\CyberQ\Lógica e Algoritmos\Aula 01\Exercicio 23\bin\Debug\net6.0\Exercicio 23.runtimeconfig.json
+C:\Users\CyberQ\Desktop\CyberQ\Lógica e Algoritmos\Aula 01\Exercicio 23\bin\Debug\net6.0\Exercicio 23.dll
+C:\Users\CyberQ\Desktop\CyberQ\Lógica e Algoritmos\Aula 01\Exercicio 23\bin\Debug\net6.0\Exercicio 23.pdb
+C:\Users\CyberQ\Desktop\CyberQ\Lógica e Algoritmos\Aula 01\Exercicio 23\obj\Debug\net6.0\Exercicio 23.dll
+C:\Users\CyberQ\Desktop\CyberQ\Lógica e Algoritmos\Aula 01\Exercicio 23\obj\Debug\net6.0\refint\Exercicio 23.dll
+C:\Users\CyberQ\Desktop\CyberQ\Lógica e Algoritmos\Aula 01\Exercicio 23\obj\Debug\net6.0\Exercicio 23.pdb
+C:\Users\CyberQ\Desktop\CyberQ\Lógica e Algoritmos\Aula 01\Exercicio 23\obj\Debug\net6.0\Exercicio 23.genruntimeconfig.cache
+C:\Users\CyberQ\Desktop\CyberQ\Lógica e Algoritmos\Aula 01\Exercicio 23\obj\Debug\net6.0\ref\Exercicio 23.dll

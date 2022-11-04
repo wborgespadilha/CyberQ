@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>05 - Tabelas</title>
+</head>
+
+<body>
+
+    <!-- Exemplo 01 -->
+
+    <h1>Exemplo 01</h1>
+
+    <table border="1">
+        <tr>
+            <td>A</td>
+            <td>B</td>
+            <td>C</td>
+        </tr>
+        <tr>
+            <td>D</td>
+            <td>E</td>
+            <td>F</td>
+        </tr>
+    </table>
+
+    <!-- Exemplo 02 -->
+
+    <h1>Exemplo 02</h1>
+    <table border="1">
+        <tr>
+            <td>Linha 1 - Coluna 1</td>
+            <td colspan="2" align="center">Linha 1 - Coluna 2</td>
+            <!-- <td>Linha 1 - Coluna 3</td> -->
+        </tr>
+        <tr>
+            <td rowspan="2">Linha 2 - Coluna 1</td>
+            <td>Linha 2 - Coluna 2</td>
+            <td>Linha 2 - Coluna 3</td>
+        </tr>
+        <tr>
+            <!-- <td>Linha 3 - Coluna 1</td> -->
+            <td>Linha 3 - Coluna 2</td>
+            <td>Linha 3 - Coluna 3</td>
+        </tr>
+    </table>
+
+    <!-- Exemplo 03 -->
+
+    <h1>Exemplo 03</h1>
+
+    <table border="5">
+
+        <thead>
+            <tr>
+                <th>Código</th>
+                <th>Produto</th>
+                <th>Valor</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Notebook Dell Inspiron</td>
+                <td>R$ 4.200,00</td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>TV Oled Samsung 50'</td>
+                <td>R$ 6.099,00</td>
+            </tr>
+
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td colspan="3" align="center">Foram encontrados: 2 produtos</td>
+            </tr>
+        </tfoot>
+
+    </table>
+
+</body>
+
+</html>

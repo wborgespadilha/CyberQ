@@ -1,0 +1,51 @@
+CREATE TABLE colaboladores(
+       codigo_colaborador NUMBER CONSTRAINT colaborador_pk PRIMARY KEY,
+       nome_colaborador VARCHAR2(30) NOT NULL,
+       cargo_colaborador VARCHAR2(40) NOT NULL,
+       salario_bruto NUMBER,
+       imposto_renda NUMBER,
+       vale_transporte NUMBER,
+       vale_refeicao NUMBER,
+       salario_liquido NUMBER
+);
+
+CREATE SEQUENCE ai_colaboradores
+MINVALUE 1
+START WITH 1
+INCREMENT BY 1
+
+CREATE OR REPLACE TRIGGER incrementar_colaboladores
+BEFORE INSERT ON colaboradores
+FOR EACH ROW
+  BEGIN
+  
+  :new.codigo_colaborador := ai_colaboradores.NEXTVAL;
+  
+    END;
+
+CREATE OR REPLACE TRIGGER cadastrar_salario
+BEFORE INSERT ON colaboradores
+FOR EACH ROW
+  FOLLOWS incrementar_colaboladores
+  DECLARE
+
+  salario NUMBER;
+  cargo VARCHAR2(40);
+
+  BEGIN
+
+    cargo := new.cargo_colaborador;
+
+    IF cargo = 'Desenvolvedor C#'
+      salario = 5000;
+    ELSIF cargo = 'Desenvolvedor PHP'
+      salario = 4300;
+    ELSIF cargo = 'Desenvolvedor Java'
+      salario = 5700;
+    ELSIF cargo = 'Desenvolvedor Python'
+      salario = 4800;
+    END IF;
+
+    :new.salario_bruto := salario;
+
+    END;

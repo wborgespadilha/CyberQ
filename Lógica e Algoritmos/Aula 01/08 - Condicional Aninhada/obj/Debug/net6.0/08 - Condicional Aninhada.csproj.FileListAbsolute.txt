@@ -1,0 +1,15 @@
+C:\Users\CyberQ\Desktop\CyberQ\Lógica e Algoritmos\Aula 01\08 - Condicional Aninhada\bin\Debug\net6.0\08 - Condicional Aninhada.exe
+C:\Users\CyberQ\Desktop\CyberQ\Lógica e Algoritmos\Aula 01\08 - Condicional Aninhada\bin\Debug\net6.0\08 - Condicional Aninhada.deps.json
+C:\Users\CyberQ\Desktop\CyberQ\Lógica e Algoritmos\Aula 01\08 - Condicional Aninhada\bin\Debug\net6.0\08 - Condicional Aninhada.runtimeconfig.json
+C:\Users\CyberQ\Desktop\CyberQ\Lógica e Algoritmos\Aula 01\08 - Condicional Aninhada\bin\Debug\net6.0\08 - Condicional Aninhada.dll
+C:\Users\CyberQ\Desktop\CyberQ\Lógica e Algoritmos\Aula 01\08 - Condicional Aninhada\bin\Debug\net6.0\08 - Condicional Aninhada.pdb
+C:\Users\CyberQ\Desktop\CyberQ\Lógica e Algoritmos\Aula 01\08 - Condicional Aninhada\obj\Debug\net6.0\08 - Condicional Aninhada.csproj.AssemblyReference.cache
+C:\Users\CyberQ\Desktop\CyberQ\Lógica e Algoritmos\Aula 01\08 - Condicional Aninhada\obj\Debug\net6.0\08 - Condicional Aninhada.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CyberQ\Desktop\CyberQ\Lógica e Algoritmos\Aula 01\08 - Condicional Aninhada\obj\Debug\net6.0\08 - Condicional Aninhada.AssemblyInfoInputs.cache
+C:\Users\CyberQ\Desktop\CyberQ\Lógica e Algoritmos\Aula 01\08 - Condicional Aninhada\obj\Debug\net6.0\08 - Condicional Aninhada.AssemblyInfo.cs
+C:\Users\CyberQ\Desktop\CyberQ\Lógica e Algoritmos\Aula 01\08 - Condicional Aninhada\obj\Debug\net6.0\08 - Condicional Aninhada.csproj.CoreCompileInputs.cache
+C:\Users\CyberQ\Desktop\CyberQ\Lógica e Algoritmos\Aula 01\08 - Condicional Aninhada\obj\Debug\net6.0\08 - Condicional Aninhada.dll
+C:\Users\CyberQ\Desktop\CyberQ\Lógica e Algoritmos\Aula 01\08 - Condicional Aninhada\obj\Debug\net6.0\refint\08 - Condicional Aninhada.dll
+C:\Users\CyberQ\Desktop\CyberQ\Lógica e Algoritmos\Aula 01\08 - Condicional Aninhada\obj\Debug\net6.0\08 - Condicional Aninhada.pdb
+C:\Users\CyberQ\Desktop\CyberQ\Lógica e Algoritmos\Aula 01\08 - Condicional Aninhada\obj\Debug\net6.0\08 - Condicional Aninhada.genruntimeconfig.cache
+C:\Users\CyberQ\Desktop\CyberQ\Lógica e Algoritmos\Aula 01\08 - Condicional Aninhada\obj\Debug\net6.0\ref\08 - Condicional Aninhada.dll

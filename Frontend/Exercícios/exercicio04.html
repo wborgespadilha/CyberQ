@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caixa Eletrônico</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+
+    <style>
+        form{
+            margin: 0 auto;
+            width: 250px;
+            text-align: center;
+            padding: 10px;
+            background-color:rgb(67, 43, 151);
+            box-shadow: 10px 10px 5px;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+
+        table{
+            margin: 20px auto;
+            text-align: center;
+        }
+
+    </style>
+
+    <script>
+
+        var clientes = [
+            {"nome":"Alice", "conta":123, "senha":123, "saldo":500.0},
+            {"nome":"Micaela", "conta":321, "senha":123, "saldo":1500.0},
+            {"nome":"Rosângela", "conta":456, "senha":123, "saldo":2500.0}
+        ];
+
+        var clienteLogadoNome;
+        var clienteLogadoSaldo;
+
+        var extratos = [];
+
+        function deslogar(){
+            document.getElementById("banco").style.display = "none";
+            document.getElementById("tabelaExtratos").style.display = "none";
+            clienteLogadoNome.value = "";
+            clienteLogadoSaldo.value = 0;  
+        }
+
+        function logar(){
+            for(let i = 0; i< clientes.length; i++){
+
+                if(document.getElementById("conta").value == clientes[i].conta &&
+                    document.getElementById("senha").value == clientes[i].senha){
+
+                    document.getElementById("conta").value = "";
+                    document.getElementById("senha").value = "";
+                    document.getElementById("banco").style.display = "block";
+                    clienteLogadoNome = clientes[i].nome;
+                    clienteLogadoSaldo = clientes[i].saldo;              
+                }
+            }
+        }
+
+        function verSaldo(){
+            alert(`O saldo de ${clienteLogadoNome} é de R$${clienteLogadoSaldo}`);
+        }
+
+        function sacar(){
+
+            let valorSacado = parseFloat(document.getElementById("valorSaque").value);
+
+            if(clienteLogadoSaldo < valorSacado){
+                alert("Você não possui saldo suficiente!");
+            }
+            else{
+
+                for(let i = 0; i < clientes.length; i++){
+
+                    if(clientes[i].nome == clienteLogadoNome){
+
+                        clientes[i].saldo -= valorSacado;
+                        clienteLogadoSaldo -= valorSacado;
+
+                        let tempo = Date.now();
+                        let agora = new Date(tempo);
+
+                        extratos.push({
+                            "cliente":clienteLogadoNome,
+                            "tipo":"Saque",
+                            "valor":valorSacado,
+                            "data":agora.toUTCString()
+                        })
+
+                        mostrarExtratos();
+                        alert("Sacado com sucesso!");
+                        document.getElementById("valorSaque").value = "";
+                    }
+
+                }
+            }
+        }
+
+        function mostrarExtratos(){
+
+            document.getElementById("tabelaExtratos").style.display = "block";
+
+            let tbody = document.getElementById("tbody");
+
+            tbody.innerHTML = null;
+
+            for(let i = 0; i < extratos.length; i++){
+                
+                if(extratos[i].cliente == clienteLogadoNome){
+
+                    let linha = tbody.insertRow(-1);
+
+                    // Colunas
+                    let coluna1 = linha.insertCell(0);
+                    let coluna2 = linha.insertCell(1);
+                    let coluna3 = linha.insertCell(2);
+
+                    coluna1.innerText = extratos[i].data;
+                    coluna2.innerText = extratos[i].valor;
+                    coluna3.innerText = extratos[i].tipo;
+                }
+            }
+        }
+
+    </script>
+
+</head>
+<body>
+    
+    <div id="login">
+        <form action="">
+            <input type="number" name="" id="conta" placeholder="Conta">
+            <input type="number" name="" id="senha" placeholder="Senha">
+            <br> <br>
+            <input type="button" class="btn btn-primary" value="Logar" onclick="logar()">
+            <input type="button" class="btn btn-danger" value="Deslogar" onclick="deslogar()">
+        </form>
+    </div>
+
+    <br>
+
+    <div id="banco" style="display: none">
+        <form action="">
+            <input type="button" class="btn btn-primary" value="Saldo" id="saldo" onclick="verSaldo()">
+            <br> <br>
+            <input type="number" id="valorSaque" placeholder="Valor a sacar">
+            <br> <br>
+            <input type="button" class="btn btn-primary" value="Sacar" id="saque" onclick="sacar()">
+            <br> <br>
+            <input type="button" class="btn btn-primary" value="Extratos" id="extrato" onclick="mostrarExtratos()">
+        </form>
+    </div>
+
+    <div id="tabelaExtratos" style="display: none">
+        <table border="1" class="table table-stripped" id="tabela">
+            <thead>
+                <tr>
+                    <th>Data e hora</th>
+                    <th>Valor</th>
+                    <th>Transação</th>
+                </tr>
+            </thead>
+
+            <tbody id="tbody">
+
+            </tbody>
+
+        </table>
+    </div>
+
+</body>
+</html>

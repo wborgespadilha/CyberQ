@@ -1,0 +1,15 @@
+C:\Users\CyberQ\Desktop\CyberQ William B. Padilha\Lógica e Algoritmos\Aula 02\Aula 02\03- Faça Enquanto\bin\Debug\net6.0\03- Faça Enquanto.exe
+C:\Users\CyberQ\Desktop\CyberQ William B. Padilha\Lógica e Algoritmos\Aula 02\Aula 02\03- Faça Enquanto\bin\Debug\net6.0\03- Faça Enquanto.deps.json
+C:\Users\CyberQ\Desktop\CyberQ William B. Padilha\Lógica e Algoritmos\Aula 02\Aula 02\03- Faça Enquanto\bin\Debug\net6.0\03- Faça Enquanto.runtimeconfig.json
+C:\Users\CyberQ\Desktop\CyberQ William B. Padilha\Lógica e Algoritmos\Aula 02\Aula 02\03- Faça Enquanto\bin\Debug\net6.0\03- Faça Enquanto.dll
+C:\Users\CyberQ\Desktop\CyberQ William B. Padilha\Lógica e Algoritmos\Aula 02\Aula 02\03- Faça Enquanto\bin\Debug\net6.0\03- Faça Enquanto.pdb
+C:\Users\CyberQ\Desktop\CyberQ William B. Padilha\Lógica e Algoritmos\Aula 02\Aula 02\03- Faça Enquanto\obj\Debug\net6.0\03- Faça Enquanto.csproj.AssemblyReference.cache
+C:\Users\CyberQ\Desktop\CyberQ William B. Padilha\Lógica e Algoritmos\Aula 02\Aula 02\03- Faça Enquanto\obj\Debug\net6.0\03- Faça Enquanto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CyberQ\Desktop\CyberQ William B. Padilha\Lógica e Algoritmos\Aula 02\Aula 02\03- Faça Enquanto\obj\Debug\net6.0\03- Faça Enquanto.AssemblyInfoInputs.cache
+C:\Users\CyberQ\Desktop\CyberQ William B. Padilha\Lógica e Algoritmos\Aula 02\Aula 02\03- Faça Enquanto\obj\Debug\net6.0\03- Faça Enquanto.AssemblyInfo.cs
+C:\Users\CyberQ\Desktop\CyberQ William B. Padilha\Lógica e Algoritmos\Aula 02\Aula 02\03- Faça Enquanto\obj\Debug\net6.0\03- Faça Enquanto.csproj.CoreCompileInputs.cache
+C:\Users\CyberQ\Desktop\CyberQ William B. Padilha\Lógica e Algoritmos\Aula 02\Aula 02\03- Faça Enquanto\obj\Debug\net6.0\03- Faça Enquanto.dll
+C:\Users\CyberQ\Desktop\CyberQ William B. Padilha\Lógica e Algoritmos\Aula 02\Aula 02\03- Faça Enquanto\obj\Debug\net6.0\refint\03- Faça Enquanto.dll
+C:\Users\CyberQ\Desktop\CyberQ William B. Padilha\Lógica e Algoritmos\Aula 02\Aula 02\03- Faça Enquanto\obj\Debug\net6.0\03- Faça Enquanto.pdb
+C:\Users\CyberQ\Desktop\CyberQ William B. Padilha\Lógica e Algoritmos\Aula 02\Aula 02\03- Faça Enquanto\obj\Debug\net6.0\03- Faça Enquanto.genruntimeconfig.cache
+C:\Users\CyberQ\Desktop\CyberQ William B. Padilha\Lógica e Algoritmos\Aula 02\Aula 02\03- Faça Enquanto\obj\Debug\net6.0\ref\03- Faça Enquanto.dll

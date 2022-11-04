@@ -1,0 +1,36 @@
+form{
+    width: 300px;
+    margin: 5% auto;
+    text-align: center;
+    background-color: beige;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+#tabelaDiv{
+    width: 65%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+form input{
+    margin-bottom: 10px;
+}
+
+#div1,
+#div2,
+#div3{
+    display: inline-block;
+    vertical-align:bottom;
+}
+
+#divzona{
+    text-align: center;
+}
+
+#btnAlterar,
+#btnRemover,
+#btnCancelar{
+    display: none;
+}

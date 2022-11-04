@@ -1,0 +1,20 @@
+C:\Users\CyberQ\Desktop\CyberQ William B. Padilha\C#\02 - Interface Gráfica\Exercícios\Exercício 15\bin\Debug\net6.0-windows\Exercício 15.exe
+C:\Users\CyberQ\Desktop\CyberQ William B. Padilha\C#\02 - Interface Gráfica\Exercícios\Exercício 15\bin\Debug\net6.0-windows\Exercício 15.deps.json
+C:\Users\CyberQ\Desktop\CyberQ William B. Padilha\C#\02 - Interface Gráfica\Exercícios\Exercício 15\bin\Debug\net6.0-windows\Exercício 15.runtimeconfig.json
+C:\Users\CyberQ\Desktop\CyberQ William B. Padilha\C#\02 - Interface Gráfica\Exercícios\Exercício 15\bin\Debug\net6.0-windows\Exercício 15.dll
+C:\Users\CyberQ\Desktop\CyberQ William B. Padilha\C#\02 - Interface Gráfica\Exercícios\Exercício 15\bin\Debug\net6.0-windows\Exercício 15.pdb
+C:\Users\CyberQ\Desktop\CyberQ William B. Padilha\C#\02 - Interface Gráfica\Exercícios\Exercício 15\obj\Debug\net6.0-windows\Exercício 15.csproj.AssemblyReference.cache
+C:\Users\CyberQ\Desktop\CyberQ William B. Padilha\C#\02 - Interface Gráfica\Exercícios\Exercício 15\obj\Debug\net6.0-windows\Exercício_15.Form1.resources
+C:\Users\CyberQ\Desktop\CyberQ William B. Padilha\C#\02 - Interface Gráfica\Exercícios\Exercício 15\obj\Debug\net6.0-windows\Exercício_15.Properties.Resources.resources
+C:\Users\CyberQ\Desktop\CyberQ William B. Padilha\C#\02 - Interface Gráfica\Exercícios\Exercício 15\obj\Debug\net6.0-windows\Exercício 15.csproj.GenerateResource.cache
+C:\Users\CyberQ\Desktop\CyberQ William B. Padilha\C#\02 - Interface Gráfica\Exercícios\Exercício 15\obj\Debug\net6.0-windows\Exercício 15.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CyberQ\Desktop\CyberQ William B. Padilha\C#\02 - Interface Gráfica\Exercícios\Exercício 15\obj\Debug\net6.0-windows\Exercício 15.AssemblyInfoInputs.cache
+C:\Users\CyberQ\Desktop\CyberQ William B. Padilha\C#\02 - Interface Gráfica\Exercícios\Exercício 15\obj\Debug\net6.0-windows\Exercício 15.AssemblyInfo.cs
+C:\Users\CyberQ\Desktop\CyberQ William B. Padilha\C#\02 - Interface Gráfica\Exercícios\Exercício 15\obj\Debug\net6.0-windows\Exercício 15.csproj.CoreCompileInputs.cache
+C:\Users\CyberQ\Desktop\CyberQ William B. Padilha\C#\02 - Interface Gráfica\Exercícios\Exercício 15\obj\Debug\net6.0-windows\Exercício 15.dll
+C:\Users\CyberQ\Desktop\CyberQ William B. Padilha\C#\02 - Interface Gráfica\Exercícios\Exercício 15\obj\Debug\net6.0-windows\refint\Exercício 15.dll
+C:\Users\CyberQ\Desktop\CyberQ William B. Padilha\C#\02 - Interface Gráfica\Exercícios\Exercício 15\obj\Debug\net6.0-windows\Exercício 15.pdb
+C:\Users\CyberQ\Desktop\CyberQ William B. Padilha\C#\02 - Interface Gráfica\Exercícios\Exercício 15\obj\Debug\net6.0-windows\Exercício 15.genruntimeconfig.cache
+C:\Users\CyberQ\Desktop\CyberQ William B. Padilha\C#\02 - Interface Gráfica\Exercícios\Exercício 15\obj\Debug\net6.0-windows\ref\Exercício 15.dll
+C:\Users\CyberQ\Desktop\CyberQ William B. Padilha\C#\02 - Interface Gráfica\Exercícios\Exercício 15\obj\Debug\net6.0-windows\Exercício_15.Recursos.resources
+C:\Users\CyberQ\Desktop\CyberQ William B. Padilha\C#\02 - Interface Gráfica\Exercícios\Exercício 15\obj\Debug\net6.0-windows\Exercício_15.Resource1.resources

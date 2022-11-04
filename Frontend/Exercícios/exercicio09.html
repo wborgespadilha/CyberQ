@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criptomoedas</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+
+    <style>
+        form{
+            text-align: center;
+            margin: 10px auto;
+            background-color: antiquewhite;
+            padding: 10px;
+            border-radius: 10px;
+            width: fit-content;
+            font-weight: bold;
+        }
+
+        body{
+            text-align: center;
+        }
+
+        #masterdiv{
+            width: fit-content;
+            display: inline-block;
+
+            margin: 0 auto;
+        }
+
+        div{
+            display: inline-block;
+            width: fit-content;
+            text-align: center;
+        }
+    </style>
+
+    <script>
+        setInterval(() => {
+            atualizar()
+        }, 10000);
+
+        function atualizar(){
+            fetch("https://www.mercadobitcoin.net/api/BTC/ticker")
+            .then(postagem => postagem.json())
+            .then(retorno => atualizarBTC(retorno));
+
+            fetch("https://www.mercadobitcoin.net/api/ETH/ticker")
+            .then(postagem => postagem.json())
+            .then(retorno => atualizarETH(retorno));
+
+            fetch("https://www.mercadobitcoin.net/api/DOGE/ticker")
+            .then(postagem => postagem.json())
+            .then(retorno => atualizarDOGE(retorno));
+        }
+
+        function atualizarBTC(retorno){
+            document.getElementById("valorBTC").value = `R$${parseFloat(retorno.ticker.last).toFixed(2)}`;
+        }
+
+        function atualizarETH(retorno){
+            document.getElementById("valorETH").value = `R$${parseFloat(retorno.ticker.last).toFixed(2)}`;
+        }
+
+        function atualizarDOGE(retorno){
+            document.getElementById("valorDOGE").value = `R$${parseFloat(retorno.ticker.last).toFixed(2)}`;
+        }
+
+    </script>
+
+</head>
+<body>
+    <div id="masterdiv">
+        <div>
+            <form action="">
+                <h2>BITCOIN</h5>
+                <label for="valorBTC">Valor:</label>
+                <br> <br>
+                <input type="text" id="valorBTC" disabled="true">
+            </form>
+        </div>
+
+        <div>
+            <form action="">
+                <h2>ETHEREUM</h5>
+                <label for="valorETH">Valor:</label>
+                <br> <br>
+                <input type="text" id="valorETH" disabled="true">
+            </form>
+        </div>
+
+        <div>
+            <form action="">
+                <h2>DOGECOIN</h5>
+                <label for="valorETH">Valor:</label>
+                <br> <br>
+                <input type="text" id="valorDOGE" disabled="true">
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>

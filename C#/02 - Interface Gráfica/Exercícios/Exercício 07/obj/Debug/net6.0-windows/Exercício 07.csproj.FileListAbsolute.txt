@@ -1,0 +1,17 @@
+C:\Users\CyberQ\Desktop\CyberQ William B. Padilha\C#\02 - Interface Gráfica\Exercícios\Exercício 07\bin\Debug\net6.0-windows\Exercício 07.exe
+C:\Users\CyberQ\Desktop\CyberQ William B. Padilha\C#\02 - Interface Gráfica\Exercícios\Exercício 07\bin\Debug\net6.0-windows\Exercício 07.deps.json
+C:\Users\CyberQ\Desktop\CyberQ William B. Padilha\C#\02 - Interface Gráfica\Exercícios\Exercício 07\bin\Debug\net6.0-windows\Exercício 07.runtimeconfig.json
+C:\Users\CyberQ\Desktop\CyberQ William B. Padilha\C#\02 - Interface Gráfica\Exercícios\Exercício 07\bin\Debug\net6.0-windows\Exercício 07.dll
+C:\Users\CyberQ\Desktop\CyberQ William B. Padilha\C#\02 - Interface Gráfica\Exercícios\Exercício 07\bin\Debug\net6.0-windows\Exercício 07.pdb
+C:\Users\CyberQ\Desktop\CyberQ William B. Padilha\C#\02 - Interface Gráfica\Exercícios\Exercício 07\obj\Debug\net6.0-windows\Exercício 07.csproj.AssemblyReference.cache
+C:\Users\CyberQ\Desktop\CyberQ William B. Padilha\C#\02 - Interface Gráfica\Exercícios\Exercício 07\obj\Debug\net6.0-windows\Exercício_07.Form1.resources
+C:\Users\CyberQ\Desktop\CyberQ William B. Padilha\C#\02 - Interface Gráfica\Exercícios\Exercício 07\obj\Debug\net6.0-windows\Exercício 07.csproj.GenerateResource.cache
+C:\Users\CyberQ\Desktop\CyberQ William B. Padilha\C#\02 - Interface Gráfica\Exercícios\Exercício 07\obj\Debug\net6.0-windows\Exercício 07.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CyberQ\Desktop\CyberQ William B. Padilha\C#\02 - Interface Gráfica\Exercícios\Exercício 07\obj\Debug\net6.0-windows\Exercício 07.AssemblyInfoInputs.cache
+C:\Users\CyberQ\Desktop\CyberQ William B. Padilha\C#\02 - Interface Gráfica\Exercícios\Exercício 07\obj\Debug\net6.0-windows\Exercício 07.AssemblyInfo.cs
+C:\Users\CyberQ\Desktop\CyberQ William B. Padilha\C#\02 - Interface Gráfica\Exercícios\Exercício 07\obj\Debug\net6.0-windows\Exercício 07.csproj.CoreCompileInputs.cache
+C:\Users\CyberQ\Desktop\CyberQ William B. Padilha\C#\02 - Interface Gráfica\Exercícios\Exercício 07\obj\Debug\net6.0-windows\Exercício 07.dll
+C:\Users\CyberQ\Desktop\CyberQ William B. Padilha\C#\02 - Interface Gráfica\Exercícios\Exercício 07\obj\Debug\net6.0-windows\refint\Exercício 07.dll
+C:\Users\CyberQ\Desktop\CyberQ William B. Padilha\C#\02 - Interface Gráfica\Exercícios\Exercício 07\obj\Debug\net6.0-windows\Exercício 07.pdb
+C:\Users\CyberQ\Desktop\CyberQ William B. Padilha\C#\02 - Interface Gráfica\Exercícios\Exercício 07\obj\Debug\net6.0-windows\Exercício 07.genruntimeconfig.cache
+C:\Users\CyberQ\Desktop\CyberQ William B. Padilha\C#\02 - Interface Gráfica\Exercícios\Exercício 07\obj\Debug\net6.0-windows\ref\Exercício 07.dll

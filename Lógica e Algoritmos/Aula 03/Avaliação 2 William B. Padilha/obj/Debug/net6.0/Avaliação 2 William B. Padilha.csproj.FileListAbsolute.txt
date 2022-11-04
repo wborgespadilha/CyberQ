@@ -1,0 +1,15 @@
+C:\Users\CyberQ\Desktop\CyberQ William B. Padilha\Lógica e Algoritmos\Aula 03\Avaliação 2 William B. Padilha\bin\Debug\net6.0\Avaliação 2 William B. Padilha.exe
+C:\Users\CyberQ\Desktop\CyberQ William B. Padilha\Lógica e Algoritmos\Aula 03\Avaliação 2 William B. Padilha\bin\Debug\net6.0\Avaliação 2 William B. Padilha.deps.json
+C:\Users\CyberQ\Desktop\CyberQ William B. Padilha\Lógica e Algoritmos\Aula 03\Avaliação 2 William B. Padilha\bin\Debug\net6.0\Avaliação 2 William B. Padilha.runtimeconfig.json
+C:\Users\CyberQ\Desktop\CyberQ William B. Padilha\Lógica e Algoritmos\Aula 03\Avaliação 2 William B. Padilha\bin\Debug\net6.0\Avaliação 2 William B. Padilha.dll
+C:\Users\CyberQ\Desktop\CyberQ William B. Padilha\Lógica e Algoritmos\Aula 03\Avaliação 2 William B. Padilha\bin\Debug\net6.0\Avaliação 2 William B. Padilha.pdb
+C:\Users\CyberQ\Desktop\CyberQ William B. Padilha\Lógica e Algoritmos\Aula 03\Avaliação 2 William B. Padilha\obj\Debug\net6.0\Avaliação 2 William B. Padilha.csproj.AssemblyReference.cache
+C:\Users\CyberQ\Desktop\CyberQ William B. Padilha\Lógica e Algoritmos\Aula 03\Avaliação 2 William B. Padilha\obj\Debug\net6.0\Avaliação 2 William B. Padilha.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CyberQ\Desktop\CyberQ William B. Padilha\Lógica e Algoritmos\Aula 03\Avaliação 2 William B. Padilha\obj\Debug\net6.0\Avaliação 2 William B. Padilha.AssemblyInfoInputs.cache
+C:\Users\CyberQ\Desktop\CyberQ William B. Padilha\Lógica e Algoritmos\Aula 03\Avaliação 2 William B. Padilha\obj\Debug\net6.0\Avaliação 2 William B. Padilha.AssemblyInfo.cs
+C:\Users\CyberQ\Desktop\CyberQ William B. Padilha\Lógica e Algoritmos\Aula 03\Avaliação 2 William B. Padilha\obj\Debug\net6.0\Avaliação 2 William B. Padilha.csproj.CoreCompileInputs.cache
+C:\Users\CyberQ\Desktop\CyberQ William B. Padilha\Lógica e Algoritmos\Aula 03\Avaliação 2 William B. Padilha\obj\Debug\net6.0\Avaliação 2 William B. Padilha.dll
+C:\Users\CyberQ\Desktop\CyberQ William B. Padilha\Lógica e Algoritmos\Aula 03\Avaliação 2 William B. Padilha\obj\Debug\net6.0\refint\Avaliação 2 William B. Padilha.dll
+C:\Users\CyberQ\Desktop\CyberQ William B. Padilha\Lógica e Algoritmos\Aula 03\Avaliação 2 William B. Padilha\obj\Debug\net6.0\Avaliação 2 William B. Padilha.pdb
+C:\Users\CyberQ\Desktop\CyberQ William B. Padilha\Lógica e Algoritmos\Aula 03\Avaliação 2 William B. Padilha\obj\Debug\net6.0\Avaliação 2 William B. Padilha.genruntimeconfig.cache
+C:\Users\CyberQ\Desktop\CyberQ William B. Padilha\Lógica e Algoritmos\Aula 03\Avaliação 2 William B. Padilha\obj\Debug\net6.0\ref\Avaliação 2 William B. Padilha.dll

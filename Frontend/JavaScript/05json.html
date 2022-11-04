@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>05 - JSON</title>
+
+    <script>
+
+        // JSON de Pessoas
+        var pessoas = [
+            {"nome":"Alice", "Idade":32},
+            {"nome":"Bianca", "Idade":26},
+            {"nome":"Caio", "Idade":39}
+        ];
+
+
+        // Cadastrar
+        pessoas.push({
+            "nome":"Isabella",
+            "Idade":27
+        })
+
+        //Remover
+        pessoas.splice(2,1);
+
+        // Exibir JSON
+        console.table(pessoas);
+
+        document.write(pessoas[0].nome);
+
+    </script>
+
+</head>
+<body>
+    
+</body>
+</html>

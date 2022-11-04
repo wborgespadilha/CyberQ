@@ -1,0 +1,13 @@
+div{
+    text-align: center;
+    margin: 10rem auto;
+  }
+  form{
+    display: inline-block;
+    margin: 10px 1rem;
+    width: fit-content;
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 10px;
+    vertical-align: bottom;
+  }
